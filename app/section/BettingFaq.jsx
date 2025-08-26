@@ -19,6 +19,7 @@ import {
   Phone,
   Mail
 } from 'lucide-react';
+import Link from 'next/link';
 
 const BettingFAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -293,8 +294,8 @@ const BettingFAQ = () => {
                   <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform duration-300">
                     <MessageCircle className="text-white" size={24} />
                   </div>
-                  <h4 className="font-bold text-gray-800 mb-2">WhatsApp</h4>
-                  <p className="text-green-600 font-semibold">+91 9876543210</p>
+                 <Link href='http://wa.link/iwantmmbid'> <h4 className="font-bold text-gray-800 mb-2">WhatsApp</h4></Link>
+                  <p className="text-green-600 font-semibold">Fast Response</p>
                 </div>
 
                 <div className="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-200/50">
@@ -314,9 +315,9 @@ const BettingFAQ = () => {
                 </div>
               </div>
 
-              <button className="bg-gradient-to-r from-red-500 to-red-600 text-white font-bold py-4 px-8 rounded-2xl hover:from-red-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-red-500/30 text-lg">
+             <Link href="http://wa.link/iwantmmbid"> <button className="bg-gradient-to-r from-red-500 to-red-600 text-white font-bold py-4 px-8 rounded-2xl hover:from-red-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-red-500/30 text-lg">
                 Get Help Now
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
