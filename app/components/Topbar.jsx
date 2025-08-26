@@ -48,7 +48,7 @@ const BettingTopbar = () => {
           <div className="flex items-center space-x-9">
             <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-[#FB6765]" />
-              <span>+91 9876543210</span>
+              <span>+91 87087 96295</span>
             </div>
             <Link href="http://wa.link/iwantmmbid">
               <div className="flex items-center space-x-2">
