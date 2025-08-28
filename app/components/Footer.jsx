@@ -28,23 +28,23 @@ export default function Footer() {
           <h3 className="font-semibold text-white mb-4">Games</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/games/slots" className="hover:text-white">
-                Slots
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
+                Cricket
               </Link>
             </li>
             <li>
-              <Link href="/games/live-casino" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Live Casino
               </Link>
             </li>
             <li>
-              <Link href="/games/sportsbook" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Sportsbook
               </Link>
             </li>
             <li>
-              <Link href="/games/poker" className="hover:text-white">
-                Poker
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
+                Tennis
               </Link>
             </li>
           </ul>
@@ -55,22 +55,22 @@ export default function Footer() {
           <h3 className="font-semibold text-white mb-4">Support</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/help-center" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Help Center
               </Link>
             </li>
             <li>
-              <Link href="/faq" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 FAQ
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link href="/responsible-gaming" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Responsible Gaming
               </Link>
             </li>
@@ -82,57 +82,57 @@ export default function Footer() {
           <h3 className="font-semibold text-white mb-4">Legal</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/terms" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Terms &amp; Conditions
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/license" className="hover:text-white">
+              <Link href="http://wa.link/iwantmmbid" className="hover:text-white">
                 License Info
               </Link>
             </li>
           </ul>
           <div className="mt-4 flex space-x-4">
-            <a
-              href="https://facebook.com"
+            <Link
+              href="http://wa.link/iwantmmbid"
               aria-label="Facebook"
               className="hover:text-white"
             >
               <FaFacebookF />
-            </a>
-            <a
-              href="https://twitter.com"
+            </Link>
+            <Link
+              href="http://wa.link/iwantmmbid"
               aria-label="Twitter"
               className="hover:text-white"
             >
               <FaTwitter />
-            </a>
-            <a
-              href="https://instagram.com"
+            </Link>
+            <Link
+              href="http://wa.link/iwantmmbid"
               aria-label="Instagram"
               className="hover:text-white"
             >
               <FaInstagram />
-            </a>
-            <a
-              href="https://linkedin.com"
+            </Link>
+            <Link
+              href="http://wa.link/iwantmmbid"
               aria-label="LinkedIn"
               className="hover:text-white"
             >
               <FaLinkedinIn />
-            </a>
-            <a
-              href="https://youtube.com"
+            </Link>
+            <Link
+              href="http://wa.link/iwantmmbid"
               aria-label="YouTube"
               className="hover:text-white"
             >
               <FaYoutube />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

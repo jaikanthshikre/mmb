@@ -290,13 +290,13 @@ const BettingFAQ = () => {
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-                <div className="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-green-200/50">
+               <Link href='http://wa.link/iwantmmbid'>  <button className="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-green-200/50">
                   <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform duration-300">
                     <MessageCircle className="text-white" size={24} />
                   </div>
-                 <Link href='http://wa.link/iwantmmbid'> <h4 className="font-bold text-gray-800 mb-2">WhatsApp</h4></Link>
+                 <h4 className="font-bold text-gray-800 mb-2">WhatsApp</h4>
                   <p className="text-green-600 font-semibold">Fast Response</p>
-                </div>
+                </button></Link>
 
                 <div className="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-200/50">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform duration-300">

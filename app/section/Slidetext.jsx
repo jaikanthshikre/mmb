@@ -14,7 +14,7 @@ import {
 const messages = [
   {
     icon: <FaCoins className="text-yellow-500" />,
-    text: '100% Welcome Bonus on First Deposit',
+    text: 'upto 10% Welcome Bonus on First Deposit',
   },
   {
     icon: <FaTrophy className="text-yellow-400" />,

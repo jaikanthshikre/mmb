@@ -46,10 +46,10 @@ const BettingTopbar = () => {
       <div className="bg-gradient-to-r from-gray-900 to-black text-white py-2 px-4 text-sm">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-9">
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-[#FB6765]" />
               <span>+91 87087 96295</span>
-            </div>
+            </div> */}
             <Link href="http://wa.link/iwantmmbid">
               <div className="flex items-center space-x-2">
                 <FaWhatsapp className="text-green-400" />
@@ -85,7 +85,7 @@ const BettingTopbar = () => {
               <Link href="/">
                 <img src="/logo.png" alt="Logo" className="h-25" />
               </Link>
-              <span className="text-white font-bold text-lg uppercase">My money bets</span>
+      {/*         <span className="text-white font-bold text-lg uppercase">My money bets</span> */}
             </div>
 
             {/* Desktop Navigation (≥ md) */}

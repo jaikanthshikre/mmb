@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { 
   FaShieldAlt, 
@@ -340,16 +341,16 @@ const WhyChooseMMB = () => {
             </h3>
             <p className="md:text-xl mb-8 md:max-w-3xl mx-auto opacity-95 leading-relaxed">
               Join over 50,000 satisfied players and start winning with MMB's premium platform.{' '}
-              <span className="font-bold text-yellow-300">Get ₹5000 welcome bonus</span> on your first deposit!
+              <span className="font-bold text-yellow-300">Get upto ₹5000 welcome bonus</span> on your first deposit!
             </p>
             <div className="flex flex-col sm:flex-row gap-2 justify-center mb-8">
-              <button className="group relative bg-white text-red-500 font-bold py-4 px-7 rounded-2xl hover:bg-yellow-300 hover:text-red-600 transition-all duration-300 transform hover:scale-110 shadow-2xl overflow-hidden">
+             <Link href="http://wa.link/iwantmmbid"> <button className="group relative bg-white text-red-500 font-bold py-4 px-7 rounded-2xl hover:bg-yellow-300 hover:text-red-600 transition-all duration-300 transform hover:scale-110 shadow-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 to-orange-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center justify-center">
                   <FaRocket className="mr-2 group-hover:animate-bounce" />
                   Register & Get Bonus
                 </div>
-              </button>
+              </button></Link>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm opacity-90">
               <div className="flex items-center">

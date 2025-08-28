@@ -2,7 +2,7 @@
 const nextConfig = {
 
   images: {
-    unoptimized: true,   // ❌ turn off the default image loader
+    unoptimized: true,   
   },
 };
 
